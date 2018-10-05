@@ -1,0 +1,74 @@
+[
+    {
+      "id": 1,
+      "name": "Jessie",
+      "image": "https://static.tvtropes.org/pmwiki/pub/images/xenogears_jessie_8299.jpg",
+      "clicked": false
+    },
+    {
+      "id": 2,
+      "name": "Sigurd",
+      "image": "https://static.tvtropes.org/pmwiki/pub/images/xenogears_sigurd_9889.jpg",
+      "clicked": false
+    },
+    {
+      "id": 3,
+      "name": "Grahf",
+      "image": "https://static.tvtropes.org/pmwiki/pub/images/xenogears_krelian_3922.jpg",
+      "clicked": false
+    },
+    {
+      "id": 4,
+      "name": "Miang",
+      "image": "https://static.tvtropes.org/pmwiki/pub/images/xenogears_miang_9594.jpg",
+      "clicked": false
+    },
+    {
+      "id": 5,
+      "name": "Ramsus",
+      "image": "https://static.tvtropes.org/pmwiki/pub/images/xenogears_ramsus_8570.jpg",
+      "clicked": false
+    },
+    {
+      "id": 6,
+      "name": "Maria",
+      "image": "https://static.tvtropes.org/pmwiki/pub/images/xenogears_maria_2652.jpg",
+      "clicked": false
+    },
+    {
+      "id": 7,
+      "name": "Billy",
+      "image": "https://static.tvtropes.org/pmwiki/pub/images/xenogears_billy_5621.jpg",
+      "clicked": false
+    },
+    {
+      "id": 8,
+      "name": "Rico",
+      "image": "https://static.tvtropes.org/pmwiki/pub/images/xenogears_rico_8997.jpg",
+      "clicked": false
+    },
+    {
+      "id": 9,
+      "name": "Bart",
+      "image": "https://static.tvtropes.org/pmwiki/pub/images/xenogears_bart_2044.jpg",
+      "clicked": false
+    },
+    {
+      "id": 10,
+      "name": "Citan",
+      "image": "https://static.tvtropes.org/pmwiki/pub/images/xenogears_citan_9053.jpg",
+      "clicked": false
+    },
+    {
+      "id": 11,
+      "name": "Elly",
+      "image": "https://static.tvtropes.org/pmwiki/pub/images/xenogears_elly_7463.jpg",
+      "clicked": false
+    },
+    {
+      "id": 12,
+      "name": "Fei",
+      "image": "https://static.tvtropes.org/pmwiki/pub/images/xenogears_fei_2457.jpg",
+      "clicked": false
+    }
+  ]
