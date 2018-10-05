@@ -20,9 +20,18 @@ class App extends Component {
             if (character.id === id) {
                 //checks clicked and toggles true
                 if(characters[i].clicked === false) {
-                    characters[i].clicked = true
+                    characters[i].clicked = true;
                     //adds to score and update message
                     this.setState({score : this.state.score + 1, message: "Good job, Keep it up!!"});
+
+                    //checks if user wins
+                    if(this.state.score >= 11) {
+                       //resets each character.clicked to false
+                      this.state.characters.forEach(character => {
+                        character.clicked = false;
+                      });
+                      this.setState({score: 0, message: "You won! You must be a Xenogears fan!", highScore: 12});
+                    }
                     //shuffles characters
                     this.state.characters.sort(() => Math.random() - 0.5);
                     return true; 
@@ -43,7 +52,6 @@ class App extends Component {
         this.state.characters.forEach(character => {
           character.clicked = false;
         });
-     
         this.setState({score: 0, message: "Game Over! Click an image to try again."});
       }
 
@@ -59,7 +67,6 @@ class App extends Component {
               key={character.id}
               name={character.name}
               image={character.image}
-            
             />
           ))}
           <footer>Xenogears React Fan Game</footer>
