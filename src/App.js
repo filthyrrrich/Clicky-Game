@@ -9,7 +9,7 @@ class App extends Component {
 
     state = {
         characters,
-        message: "Click an image to begin. Dont click the same image twice!!!!!!!!!!!!!!!!",
+        message: "Click an image to begin. Dont click the same image twice!",
         score: 0,
         highScore: 0
     };
